@@ -1,4 +1,4 @@
-AMBIENTE DE AGENDAMENTO DE TAREFAS
+AMBIENTE DE AGENDAMENTO DE TAREFAS - RUNDECK
 
 Esta imagem carrega a aplicação de automação do Rundeck (Community)e as ferramentas para execução das rotinas.
 
@@ -15,3 +15,11 @@ Instruções - Subir container
 3 - Criar container a partir da imagem: "docker run -p 4440:4440 -d rundeck"
 
 Para acessar o container: "docker exec -it <id container> bash"
+
+=====================================
+
+Outras ferramentas instaladas:
+
+- Python 3 (e bibliotecas pandas, selenium e requests)
+- Binários do Google Chrome
+
