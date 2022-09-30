@@ -1,6 +1,11 @@
 AMBIENTE DE AGENDAMENTO DE TAREFAS
 
-Esta imagem carrega a aplicação de automação do Rundeck (Community) e as ferramentas para execução das rotinas. Baseado no repositório jordan/rundeck: https://hub.docker.com/r/jordan/rundeck/
+Esta imagem carrega a aplicação de automação do Rundeck (Community)e as ferramentas para execução das rotinas.
+
+Por padrão, a imagem irá se conectar em um banco de dados externo PostgreSQL, cujo "setup" inicial já foi realizado. Para uma nova instalação ou demais configurações, verifique os comentários do Dockerfile.
+
+Baseado no repositório jordan/rundeck: https://hub.docker.com/r/jordan/rundeck/
+
 
 =====================================
 Instruções - Subir container
